@@ -1,0 +1,32 @@
+{
+    "name": "binary-os-sim",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "bin": {
+        "binary-os-sim": "./bin/binary-os-sim"
+    },
+    "scripts": {
+        "start": "node bin/binary-os-sim.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+
+    "author": "Giorgi Kishmareia",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/q1sh101/binary-os-sim.git"
+    },
+    "bugs": {
+        "url": "https://github.com/q1sh101/binary-os-sim/issues"
+    },
+    "homepage": "https://github.com/q1sh101/binary-os-sim#readme",
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=6.0.0"
+    },
+    "funding": {
+        "type": "individual",
+        "url": "https://github.com/sponsors/q1sh101"
+    }
+}
