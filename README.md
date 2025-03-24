@@ -2,6 +2,10 @@
 
 `binary-os-sim` is a hyper-realistic CLI tool designed to simulate an operating system's boot process in a visually engaging and interactive manner. Ideal for both educational demonstrations and entertainment, this project showcases the fundamentals of binary operations and system initialization through a detailed, step-by-step simulation.
 
+![License](https://img.shields.io/badge/license-MIT-red.svg)
+![Node.js](https://img.shields.io/badge/Node.js-14%2B-green.svg)
+
+
 ## 🚀 Features
 
 - **Immersive OS Boot Simulation**  
@@ -23,8 +27,6 @@
   Configurable delays mimic real-time processing, enhancing the authenticity of the boot sequence (use `--speed=<value>` to adjust).
 
 
-![License](https://img.shields.io/badge/license-MIT-red.svg)
-![Node.js](https://img.shields.io/badge/Node.js-14%2B-green.svg)
 
 ## 📦 Installation
 
