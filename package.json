@@ -1,0 +1,62 @@
+{
+    "name": "binary-os-sim",
+    "version": "0.0.1",
+    "description": "Hyper-Realistic OS Boot Simulator – an immersive CLI tool that emulates an operating system's boot process with interactive binary logic operations and detailed progress tracking for both educational and entertainment purposes.",
+    "main": "index.js",
+    "bin": {
+        "binary-os-sim": "./bin/binary-os-sim"
+    },
+    "scripts": {
+        "start": "node bin/binary-os-sim.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "OS",
+        "simulator",
+        "boot",
+        "binary",
+        "CLI",
+        "education",
+        "operating-system",
+        "boot-sequence",
+        "kernel",
+        "firmware",
+        "binary-logic",
+        "binary-operations",
+        "logical-gates",
+        "AND",
+        "OR",
+        "XOR",
+        "NOT",
+        "NAND",
+        "NOR",
+        "XNOR",
+        "progress-bar",
+        "system-initialization",
+        "computer-science",
+        "tech-education",
+        "interactive-simulation",
+        "binary-simulation",
+        "javascript",
+        "nodejs",
+        "terminal"
+    ],
+    "author": "Giorgi Kishmareia",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/q1sh101/binary-os-sim.git"
+    },
+    "bugs": {
+        "url": "https://github.com/q1sh101/binary-os-sim/issues"
+    },
+    "homepage": "https://github.com/q1sh101/binary-os-sim#readme",
+    "engines": {
+        "node": ">=14.0.0",
+        "npm": ">=6.0.0"
+    },
+    "funding": {
+        "type": "individual",
+        "url": "https://github.com/sponsors/q1sh101"
+    }
+}
