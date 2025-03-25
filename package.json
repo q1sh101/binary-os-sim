@@ -1,6 +1,6 @@
 {
     "name": "binary-os-sim",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "Hyper-Realistic OS Boot Simulator – an immersive CLI tool that emulates an operating system's boot process with interactive binary logic operations and detailed progress tracking for both educational and entertainment purposes.",
     "main": "index.js",
     "bin": {
