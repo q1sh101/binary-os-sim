@@ -1,6 +1,6 @@
 # 🤖 binary-os-sim
 
-`binary-os-sim` is a hyper-realistic CLI tool designed to simulate an operating system's boot process in a visually engaging and interactive manner. Ideal for both educational demonstrations and entertainment, this project showcases the fundamentals of binary operations and system initialization through a detailed, step-by-step simulation.
+`Hyper-Realistic OS Simulation` is a hyper-realistic CLI tool designed to simulate an operating system's boot process in a visually engaging and interactive manner. Ideal for both educational demonstrations and entertainment, this project showcases the fundamentals of binary operations and system initialization through a detailed, step-by-step simulation.
 
 ![License](https://img.shields.io/badge/license-MIT-red.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-14%2B-green.svg)
@@ -8,24 +8,29 @@
 
 ## 🚀 Features
 
-- **Immersive OS Boot Simulation**  
-  Experience a realistic emulation of an OS boot sequence with firmware initialization, bootloader loading, kernel booting, and more.
+- **Hyper-Realistic OS Boot Simulation**  
+  Dive into an ultra-detailed emulation of an OS boot process, including UEFI firmware, bootloader, kernel initialization, and user-space activation.
 
-- **Interactive Binary Operations**  
-  Input binary values and choose from a range of logical operations (AND, OR, XOR, NOT, NAND, NOR, XNOR) to see real-time results.
+- **Interactive Binary Logic Operations**  
+  Perform real-time binary operations (AND, OR, XOR, NOT, NAND, NOR, XNOR) with user inputs, complete with detailed bit-by-bit explanations.
 
-- **Detailed Progress Tracking**  
-  Enjoy a visual progress bar that updates as each simulation stage is executed, providing clear insights into the system's status.
+- **Granular Progress Visualization**  
+  Track each boot stage with a dynamic progress bar, reflecting intricate steps like kernel module loading and network stack setup.
 
-- **ANSI Color-Coded Output**  
-  Each step of the simulation is enhanced with color-coded terminal messages for improved readability and engagement.
+- **ANSI Color-Coded Terminal Output**  
+  Enjoy visually distinct, color-coded messages for every phase—firmware (blue), kernel (green), operations (magenta)—for clarity and engagement.
 
-- **Robust Logging and Error Handling**  
-  Comprehensive logging ensures that every operation and error is recorded with timestamps, aiding in troubleshooting and learning.
+- **Advanced Logging System**  
+  Capture every action with timestamped logs, verbose debugging (e.g., `dmesg`, `journalctl`), and robust error handling with stack traces.
 
-- **Adaptive Delays for Realism**  
-  Configurable delays mimic real-time processing, enhancing the authenticity of the boot sequence (use `--speed=<value>` to adjust).
+- **Configurable Real-Time Delays**  
+  Experience authentic timing with adaptive delays, adjustable via `--speed=<value>`, mimicking real hardware and software interactions.
 
+- **Hardware & Software Realism**  
+  Simulate CPU features (SSE/AVX), PCI/PCIe scanning, NUMA/DMA memory management, I/O schedulers (CFQ), and systemd services (cron, udev).
+
+- **Network & Security Enhancements**  
+  Features TCP congestion control (BBR), Jumbo Frames, DNS resolution, and firewall rules (nftables) for a complete system experience.
 
 
 ## 📦 Installation
